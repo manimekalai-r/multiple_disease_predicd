@@ -1,5 +1,5 @@
-#🧬 Multiple Disease Prediction using Machine Learning
-##📌 Overview
+# 🧬 Multiple Disease Prediction using Machine Learning
+## 📌 Overview
 
 This project is a machine learning application that predicts the likelihood of three diseases:
 
@@ -79,47 +79,47 @@ Size: ~195 records
 
       Dropped unwanted columns (id, name, etc.)
 
- Missing values:
+      Missing values:
 
-     Numeric → imputed with median
+        Numeric → imputed with median
 
-     Categorical → imputed with "None"
+        Categorical → imputed with "None"
 
-     Encoded categorical features with OneHotEncoder
+      Encoded categorical features with OneHotEncoder
 
-     Scaled numeric features with StandardScaler
+      Scaled numeric features with StandardScaler
 
 2.**Model Training**
 
-     RandomForest, Logistic Regression, and XGBoost tested
+      RandomForest, Logistic Regression, and XGBoost tested
 
-     Cross-validation using StratifiedKFold
+      Cross-validation using StratifiedKFold
 
-     Hyperparameter tuning with RandomizedSearchCV
+      Hyperparameter tuning with RandomizedSearchCV
 
-    Best model saved using joblib
+      Best model saved using joblib
 
 3.**Evaluation Metrics**
 
-     Accuracy
+      Accuracy
 
-    Precision, Recall, F1-score
+      Precision, Recall, F1-score
 
-    ROC-AUC & PR-AUC curves
+      ROC-AUC & PR-AUC curves
 
-    Confusion Matrix
+      Confusion Matrix
 
 4.**Model Interpretability**
 
-    Feature importance (RandomForest/XGBoost)
+      Feature importance (RandomForest/XGBoost)
 
-    SHAP values for local & global explanations
+      SHAP values for local & global explanations
 
 5.**Deployment**
 
-    Built with Streamlit
+      Built with Streamlit
 
-    User inputs patient details → Model predicts disease probability
+      User inputs patient details → Model predicts disease probability
 ## ✅ Results
 
   **Liver Disease Model**: ROC-AUC ≈ 0.82
@@ -131,15 +131,15 @@ Size: ~195 records
 
 ## 🌟 Future Improvements
 
-    Add more datasets (e.g., Heart Disease, Diabetes)
+Add more datasets (e.g., Heart Disease, Diabetes)
 
-    Use Deep Learning models for improved performance
+Use Deep Learning models for improved performance
 
-    Deploy on cloud (Heroku, Streamlit Cloud, AWS)
+Deploy on cloud (Heroku, Streamlit Cloud, AWS)
 
-    Add Explainable AI dashboards with SHAP/ELI5
+Add Explainable AI dashboards with SHAP/ELI5
 
 
 ## ⚠️ Disclaimer
 
-    This project is for educational purposes only and should not be used for real medical diagnosis. Always consult healthcare professionals for medical advice.
+This project is for educational purposes only and should not be used for real medical diagnosis. Always consult healthcare professionals for medical advice.
